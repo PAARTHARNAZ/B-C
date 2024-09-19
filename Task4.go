@@ -6,7 +6,6 @@ import (
 	"strings"
 )
 
-// Student struct holds the student's name and the subjects they are studying.
 type Student struct {
 	Name     string
 	Subjects []string
@@ -19,7 +18,6 @@ func CalculateHash(data string) string {
 }
 
 func main() {
-	// Create a list of students with their subjects.
 	students := []Student{
 		{Name: "Alice", Subjects: []string{"Math", "Science", "History"}},
 		{Name: "Bob", Subjects: []string{"English", "Biology", "Physics"}},
